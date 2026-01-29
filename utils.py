@@ -41,7 +41,7 @@ SCORE_TITLE = "Gradus ad Parnassum Exercise"
 SCORE_COMPOSER = "Fux, Johann Joseph"
 
 # URL configuration for downloads and viewing.
-BASE_RAW_GIT = "https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/scores/1x1/"
+BASE_RAW_GIT = "https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/"
 BASE_VHV_URL = "https://verovio.humdrum.org/?file=" + BASE_RAW_GIT
 
 # HTML template
@@ -254,7 +254,7 @@ def format_download_links(figure: str) -> str:
     :param figure: Figure name (mostly numeric, though datatype is string)
     :return: Html string for clickable links.
     """
-    figure_name = figure.split(" ")[0]  # Extract just the number
+    figure_name = zfill_figure(figure)
     shared_url = f"{BASE_RAW_GIT}{figure_name}"
     return f'<a href="{shared_url}.mxl">.mxl</a> <a href="{shared_url}.krn">.krn</a>'
 
@@ -266,8 +266,21 @@ def format_vhv_link(figure: str) -> str:
     :param figure: Figure name/number
     :return: URL string for clickable link to VHV.
     """
-    figure_name = figure.split(" ")[0]
+    figure_name = zfill_figure(figure)
     return f'<a href="{BASE_VHV_URL}{figure_name}.krn">click here</a>'
+
+
+def zfill_figure(figure_name: str) -> str:
+    """
+    Extract the figure number (without notes) and zfill for the range here (3 digits).
+    Hacky workaround to for cases like 88a.
+    At least those anomalies are all in the range 80–90.
+    """
+    figure_name = figure_name.split(" ")[0]
+    if figure_name.startswith("8"):
+        return "0" + figure_name
+    else:
+        return figure_name.zfill(3)
 
 
 def write_score_segments(
@@ -291,11 +304,8 @@ def write_score_segments(
     for _, row in dataframe.iterrows():
         section = score.measures(row["Measure start"], row["Measure end"])
         # Extract figure number (without any comment text)
-        figure_name = row["Figure"].split(" ")[0]
-        if figure_name.startswith("8"):  # Not ideal, but we follow Fux
-            figure_name = "0" + figure_name
-        else:
-            figure_name = figure_name.zfill(3)
+
+        figure_name = zfill_figure(row["Figure"])
         output_path = segment_dir / figure_name
         section.write("mxl", output_path)
 
