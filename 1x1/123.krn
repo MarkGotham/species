@@ -1,0 +1,53 @@
+!!!COM: Fux, Johann Joseph
+!!!OMD: Gradus ad Parnassum Exercise
+!!!YEC: CC0 1.0 Universal (Public Domain). Mark Gotham and FourScoreAndMore.org waive all rights to this document.
+**kern	**kern	**kern
+*part3	*part2	*part1
+*staff3	*staff2	*staff1
+*I"3	*I"2	*I"1
+*I'Pno	*I'Pno	*I'Pno
+!!LO:LB:g=z
+*clefGv2	*clefG2	*clefG2
+*k[]	*k[]	*k[]
+!!LO:TX:omd:t=
+*M4/4	*M4/4	*M4/4
+=210	=210	=210
+!	!	!LO:TX:a:t=Fig. 123; Species&colon; 2; Modal final&colon; d; Cantus firmus&colon; 2
+2r	1d	1a
+2d\	.	.
+=211	=211	=211
+2D/	1f	1a
+2F/	.	.
+=212	=212	=212
+2A/	1e	1cc
+2E/	.	.
+=213	=213	=213
+2G/	1d	1b
+2F/	.	.
+=214	=214	=214
+2E/	1g	1b
+2G/	.	.
+=215	=215	=215
+2D/	1f	1dd
+2E/	.	.
+=216	=216	=216
+2F/	1a	1cc
+2A/	.	.
+=217	=217	=217
+2c\	1g	1ee
+2C/	.	.
+=218	=218	=218
+2D/	1f	1a
+[2d\	.	.
+=219	=219	=219
+2d\]	1e	1g
+2c#X\	.	.
+=220	=220	=220
+1d	1d	1f#X
+==	==	==
+*-	*-	*-
+!!!software: music21 v.9.7.1
+!!!software: music21 v.9.7.1
+!!!software: MuseScore 3.4.2
+!!!RDF**kern: > = above
+!!!RDF**kern: < = below

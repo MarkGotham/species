@@ -1,0 +1,79 @@
+!!!COM: Fux, Johann Joseph
+!!!OMD: Gradus ad Parnassum Exercise
+!!!YEC: CC0 1.0 Universal (Public Domain). Mark Gotham and FourScoreAndMore.org waive all rights to this document.
+**kern	**kern
+*part2	*part1
+*staff2	*staff1
+*I"2	*I"1
+*I'Pno	*I'Pno
+!!LO:LB:g=z
+*clefF4	*clefGv2
+*k[]	*k[]
+!!LO:TX:omd:t=
+*M2/2	*M2/2
+=314	=314
+!	!LO:TX:a:t=Fig. 59; Species&colon; 3; Modal final&colon; f; Cantus firmus&colon; Upper
+4FF/	1F
+4F\	.
+4E\	.
+4D\	.
+=315	=315
+4E\	1G
+4C/	.
+4D\	.
+4E\	.
+=316	=316
+4F\	1A
+4E\	.
+4D\	.
+4C/	.
+=317	=317
+4D\	1F
+4C/	.
+4BB-X/	.
+4AA/	.
+=318	=318
+4BB-X/	1D
+4F\	.
+4B-X\	.
+4A\	.
+=319	=319
+4G\	1E
+4C/	.
+4c\	.
+4B-X\	.
+!!LO:LB:g=z
+=320	=320
+4A\	1F
+4G\	.
+4F\	.
+4D\	.
+=321	=321
+4E\	1c
+4C/	.
+4D\	.
+4E\	.
+=322	=322
+4F\	1A
+4E\	.
+4D\	.
+4C/	.
+=323	=323
+4D\	1F
+4E\	.
+4F\	.
+4D\	.
+=324	=324
+4E\	1G
+4C/	.
+4D\	.
+4E\	.
+=325	=325
+1F	1F
+==	==
+*-	*-
+!!!software: music21 v.9.7.1
+!!!software: music21 v.9.7.1
+!!!software: MuseScore 3.4.2
+!!!RDF**kern: > = above
+!!!RDF**kern: < = below
