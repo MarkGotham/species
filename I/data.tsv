@@ -1,0 +1,47 @@
+Measure start	Figure	Species	Modal final	Cantus firmus	Measure end	Measure Count
+1	5	1	d	Lower	11	11
+12	6 (corrected version)	1	d	Upper	22	11
+23	11	1	e	Lower	32	10
+33	12 (corrected version)	1	e	Upper	42	10
+43	13	1	f	Lower	54	12
+55	14	1	f	Upper	66	12
+67	15 (corrected version)	1	g	Lower	80	14
+81	21	1	g	Upper	94	14
+95	22	1	a	Lower	106	12
+107	23	1	a	Upper	118	12
+119	33 (corrected version of 26)	2	d	Lower	129	11
+130	35	2	d	Upper	140	11
+141	36	2	e	Lower	150	10
+151	37	2	e	Upper	160	10
+161	38	2	f	Lower	172	12
+173	39	2	f	Upper	184	12
+185	40	2	g	Lower	198	14
+199	41	2	g	Upper	212	14
+213	42	2	a	Lower	223	11
+224	43	2	a	Upper	235	12
+236	44	2	c	Lower	247	12
+248	45	2	c	Upper	259	12
+260	55	3	d	Lower	270	11
+271	56	3	d	Upper	281	11
+282	57	3	e	Lower	291	10
+292	58	3	e	Upper	301	10
+302	59	3	f	Lower	313	12
+314	59	3	f	Upper	325	12
+326	73	4	d	Lower	336	11
+337	74	4	d	Upper	347	11
+348	75	4	e	Lower	357	10
+358	76	4	e	Upper	367	10
+368	77	4	f	Lower	379	12
+380	78	4	f	Upper	391	12
+392	82	5	d	Lower	402	11
+403	83	5	d	Upper	413	11
+414	84a	5	e	Lower	423	10
+424	84b	5	e	Upper	433	10
+434	85a	5	f	Lower	445	12
+446	85b	5	f	Upper	457	12
+458	86a	5	g	Lower	471	14
+472	86b	5	g	Upper	485	14
+486	87a	5	a	Lower	497	12
+498	87a	5	a	Upper	509	12
+510	88a	5	c	Lower	518	9
+519	88b	5	c	Upper	527	9
