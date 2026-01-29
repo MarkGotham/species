@@ -1,4 +1,4 @@
-# Fux Species counterpoint examples
+# Species Counterpoint
 
 This repo provides the full cantus firmus exercises of Johann Joseph Fux's iconic pedagogical treatise, 'Gradus ad Parnassum' in three sections:
 1. Two Voices (46 exercises)
@@ -14,26 +14,17 @@ For each of these sections, we provide four files:
 
 Everything is provided in an editable format for teachers to adjust freely for their own class’ needs and released under a correspondingly open licence.
 
-## Downloads
+## Whole Part Downloads
 
-Files are hosted locally and downloadable in either .mscz or .mxl format.
+Files are hosted locally and downloadable in .pdf, .mscz, or .mxl format.
+PDFs are known to most and not the main use case here.
 The .mscz format is for MuseScore specifically; you can open the .mxl files in any music notation software.
 
-In .mxl format:
-
 | Part | Exercises | Solutions | Annotations | Distinct |
 |---|---|---|---|---|
-I|[I-Exercises.mxl](./I/I-Exercises.mxl)|[I-Solutions.mxl](./I/I-Solutions.mxl)|[I-Annotations.mxl](./I/I-Annotations.mxl)|[I-Distinct.mxl](./I/I-Distinct.mxl)|
-II|[II-Exercises.mxl](./II/II-Exercises.mxl)|[II-Solutions.mxl](./II/II-Solutions.mxl)|[II-Annotations.mxl](./II/II-Annotations.mxl)|[II-Distinct.mxl](./II/II-Distinct.mxl)|
-III|[III-Exercises.mxl](./III/III-Exercises.mxl)|[III-Solutions.mxl](./III/III-Solutions.mxl)|[III-Annotations.mxl](./III/III-Annotations.mxl)|[III-Distinct.mxl](./I/III-Distinct.mxl)|
-
-In .mscz format:
-
-| Part | Exercises | Solutions | Annotations | Distinct |
-|---|---|---|---|---|
-I|[I-Exercises.mscz](./I/I-Exercises.mscz)|[I-Solutions.mscz](./I/I-Solutions.mscz)|[I-Annotations.mscz](./I/I-Annotations.mscz)|[I-Distinct.mscz](./I/I-Distinct.mscz)|
-II|[II-Exercises.mscz](./II/II-Exercises.mscz)|[II-Solutions.mscz](./II/II-Solutions.mscz)|[II-Annotations.mscz](./II/II-Annotations.mscz)|[II-Distinct.mscz](./II/II-Distinct.mscz)|
-III|[III-Exercises.mscz](./III/III-Exercises.mscz)|[III-Solutions.mscz](./III/III-Solutions.mscz)|[III-Annotations.mscz](./III/III-Annotations.mscz)|[III-Distinct.mscz](./I/III-Distinct.mscz)|
+I|[.mxl](./I/I-Exercises.mxl),[.mscz](./I/I-Exercises.mscz),[.pdf](./I/I-Exercises.pdf)|[.mxl](./I/I-Solutions.mxl),[.mscz](./I/I-Solutions.mscz),[.pdf](./I/I-Solutions.pdf)|[.mxl](./I/I-Annotations.mxl),[.mscz](./I/I-Annotations.mscz),[.pdf](./I/I-Annotations.pdf)|[.mxl](./I/I-Distinct.mxl),[.mscz](./I/I-Distinct.mscz),[.pdf](./I/I-Distinct.pdf)
+II|[.mxl](./II/II-Exercises.mxl),[.mscz](./II/II-Exercises.mscz),[.pdf](./II/II-Exercises.pdf)|[.mxl](./II/II-Solutions.mxl),[.mscz](./II/II-Solutions.mscz),[.pdf](./II/II-Solutions.pdf)|[.mxl](./II/II-Annotations.mxl),[.mscz](./II/II-Annotations.mscz),[.pdf](./II/II-Annotations.pdf)|[.mxl](./II/II-Distinct.mxl),[.mscz](./II/II-Distinct.mscz),[.pdf](./II/II-Distinct.pdf)
+III|[.mxl](./III/III-Exercises.mxl),[.mscz](./III/III-Exercises.mscz),[.pdf](./III/III-Exercises.pdf)|[.mxl](./III/III-Solutions.mxl),[.mscz](./III/III-Solutions.mscz),[.pdf](./III/III-Solutions.pdf)|[.mxl](./III/III-Annotations.mxl),[.mscz](./III/III-Annotations.mscz),[.pdf](./III/III-Annotations.pdf)|[.mxl](./III/III-Distinct.mxl),[.mscz](./III/III-Distinct.mscz),[.pdf](./III/III-Distinct.pdf)
 
 ## For Reference
 
