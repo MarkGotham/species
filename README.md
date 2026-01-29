@@ -14,9 +14,26 @@ For each of these sections, we provide four files:
 
 Everything is provided in an editable format for teachers to adjust freely for their own class’ needs and released under a correspondingly open licence.
 
-## Whole Part Downloads
+Each exercise includes the following information:
+- Figure number (in the modern Norton/Mann edition, 1965).
+- Species type,
+- Modal final,
+- Cantus firmus part
 
-Files are hosted locally and downloadable in .pdf, .mscz, or .mxl format.
+Details are provided for each part in tabular and html formats: 
+1. part I: [tabular](./I/data.tsv), [html](./I/search.html),
+2. part II: [tabular](./II/data.tsv), [html](./II/search.html),
+3. part III: [tabular](./III/data.tsv), [html](./III/search.html),
+
+The html docs can be opened in any web browser and used to search the collection by any of the criteria above (e.g., species type). 
+
+
+## Downloads
+
+### Whole Part Downloads (Part I, II, III)
+
+You can download a whole part at once directly
+and in your choice of format: .pdf, .mscz, or .mxl.
 PDFs are known to most and not the main use case here.
 The .mscz format is for MuseScore specifically; you can open the .mxl files in any music notation software.
 
@@ -26,185 +43,44 @@ I|[.mxl](./I/I-Exercises.mxl),[.mscz](./I/I-Exercises.mscz),[.pdf](./I/I-Exercis
 II|[.mxl](./II/II-Exercises.mxl),[.mscz](./II/II-Exercises.mscz),[.pdf](./II/II-Exercises.pdf)|[.mxl](./II/II-Solutions.mxl),[.mscz](./II/II-Solutions.mscz),[.pdf](./II/II-Solutions.pdf)|[.mxl](./II/II-Annotations.mxl),[.mscz](./II/II-Annotations.mscz),[.pdf](./II/II-Annotations.pdf)|[.mxl](./II/II-Distinct.mxl),[.mscz](./II/II-Distinct.mscz),[.pdf](./II/II-Distinct.pdf)
 III|[.mxl](./III/III-Exercises.mxl),[.mscz](./III/III-Exercises.mscz),[.pdf](./III/III-Exercises.pdf)|[.mxl](./III/III-Solutions.mxl),[.mscz](./III/III-Solutions.mscz),[.pdf](./III/III-Solutions.pdf)|[.mxl](./III/III-Annotations.mxl),[.mscz](./III/III-Annotations.mscz),[.pdf](./III/III-Annotations.pdf)|[.mxl](./III/III-Distinct.mxl),[.mscz](./III/III-Distinct.mscz),[.pdf](./III/III-Distinct.pdf)
 
-## For Reference
 
-Each exercise includes the following information:
-- Figure number (in the modern Norton/Mann edition, 1965).
-- Species type,
-- Modal final,
-- Cantus firmus part
+### Individual figures (5, 6, 11, ..., 204)
 
-For ease of reference, the following sub-section / tables set out that information in full.
+We also provide each figure in a separate files.
+These can be downloaded or viewed and engaged with directly online.
+Again, the best way to explore this collection and make choices,
+is via the html summaries:
+1. part I: [html](./I/search.html),
+2. part II: [html](./II/search.html),
+3. part III: [html](./III/search.html).
 
-Finally, a note on clefs. Those given also follow the Norton/Mann edition (1965) for parts I and II. Part III keeps the same clefs throughout to be consistent both internally and with the modern choral score layout (treble, treble, treble 8, bass). Teachers may wish to choose their own clefs as part of adapting these files for class.
 
-### Part I
+## Cantus firmus
 
-| Figure | Species | Mode (final) | Cantus Firmus Part |
-|---|---|---|---|
-|5|1|d|Lower|
-|6|1|d|Upper|
-|11|1|e|Lower|
-|12|1|e|Upper|
-|13|1|f|Lower|
-|14|1|f|Upper|
-|15|1|g|Lower|
-|21|1|g|Upper|
-|22|1|a|Lower|
-|23|1|a|Upper|
-|33|2|d|Lower|
-|35|2|d|Upper|
-|36|2|e|Lower|
-|37|2|e|Upper|
-|38|2|f|Lower|
-|39|2|f|Upper|
-|40|2|g|Lower|
-|41|2|g|Upper|
-|42|2|a|Lower|
-|43|2|a|Upper|
-|44|2|c|Lower|
-|45|2|c|Upper|
-|55|3|d|Lower|
-|56|3|d|Upper|
-|57|3|e|Lower|
-|58|3|e|Upper|
-|59|3|f|Lower|
-|59|3|f|Upper|
-|73|4|d|Lower|
-|74|4|d|Upper|
-|75|4|e|Lower|
-|76|4|e|Upper|
-|77|4|f|Lower|
-|78|4|f|Upper|
-|82|5|d|Lower|
-|83|5|d|Upper|
-|84a|5|e|Lower|
-|84b|5|e|Upper|
-|85a|5|f|Lower|
-|85b|5|f|Upper|
-|86a|5|g|Lower|
-|86b|5|g|Upper|
-|87a|5|a|Lower|
-|87a|5|a|Upper|
-|88a|5|c|Lower|
-|88b|5|c|Upper|
+Fux's use of cantus firmus broadly centres on
+one cantus firmus for each modal final that stays broadly constant
+throughout all exercises and parts.
 
-Fux basically uses one cantus firmus for each modal final throughout. The note sequences are as follows, along with their usage counts (46 total) and the minor exceptions:
+The note sequences are as follows, along with their usage counts and the minor exceptions.
 
-| Modal final | Pitches | Counts and exceptions |
-|---|---|---|
-| D | D4, F4, E4, D4, G4, F4, A4, G4, F4, E4, D4| 10 counts |
-| E | E4, C4, D4, C4, A3, A4, G4, E4, F4, E4| 10 counts |
-| F | F3, G3, A3, F3, D3, E3, F3, C4, A3, F3, G3, F3| 10 counts including one at the octave above, (fig.13: starting F4) |
-| G | G3, C4, B3, G3, C4, E4, D4, G4, E4, C4, D4, B3, A3, G3| 6 counts |
-| A | A3, C4, B3, D4, C4, E4, F4, E4, D4, C4, B3, A3| 6 counts including one lacking the first D (fig.42: A3, C4, B3, C4, E4 ...) |
-| C | C4, E4, F4, G4, E4, A4, G4, E4, F4, E4, D4, C4 | 2 counts. The most anomalous case.|
-| C | C4, D4, F4, E4, G4, E4, F4, E4, D4, C4 | 2 counts. More divergent than for the other modes|
+| Modal final | Pitches                                                | Part I (46)                                                           | Part II (44)                        | Part III (32)                  |
+|-------------|--------------------------------------------------------|-----------------------------------------------------------------------|-------------------------------------|--------------------------------|
+| D           | D4, F4, E4, D4, G4, F4, A4, G4, F4, E4, D4             | 10                                                                    | 16  at two octaves (D3 and D4)      | 21  at two octaves (D3 and D4) |
+| E           | E4, C4, D4, C4, A3, A4, G4, E4, F4, E4                 | 10                                                                    | 12  at two octaves (E3 and E4)      | 7, one at E5 (fig.184)         |
+| F           | F3, G3, A3, F3, D3, E3, F3, C4, A3, F3, G3, F3         | 10  including one at the octave above, (fig.13: starting F4)          | 9  at two octaves (F3 and F4)       | 4  at two octaves (F3 and F4)  |
+| G           | G3, C4, B3, G3, C4, E4, D4, G4, E4, C4, D4, B3, A3, G3 | 6                                                                     | 2                                   | -                              |
+| A           | A3, C4, B3, D4, C4, E4, F4, E4, D4, C4, B3, A3         | 6  including one lacking the first D (fig.42: A3, C4, B3, C4, E4 ...) | 3  at three octaves (A2, A3 and A4) | -                              | 
+| C           | C4, E4, F4, G4, E4, A4, G4, E4, F4, E4, D4, C4         | 2 Note the two version for the final on C (this line and below)       | 2                                   | -                              |
+| C           | C4, D4, F4, E4, G4, E4, F4, E4, D4, C4                 | 2                                                                     | -                                   | -                              |
 
-<!-- To do: originalClefUpper, originalClefLower, replacementClefUpper, replacementClefLower
-(Original = Fux; Replacement = Mann) -->
 
-### Part II
+## Acknowledgements, Contribution, and Licence
 
-| Figure | Species | Mode (final) | Cantus Firmus Part |
-|---|---|---|---|
-|101|1|d|1|
-|104|1|d|2|
-|105|1|d|3|
-|106|1|e|1|
-|108|1|e|2|
-|109|1|e|3|
-|110|1|f|1|
-|111|1|f|2|
-|112|1|f|3|
-|113|1|g|1|
-|114|1|g|2|
-|115|1|a|1|
-|116|1|a|2|
-|117|1|a|3|
-|118|1|c|1|
-|119|1|c|2|
-|121|2|d|1|
-|122|2|d|2|
-|123|2|d|2|
-|124|2|e|2|
-|125|2|e|3|
-|126|2|e|1|
-|127|2|f|1|
-|128|2|f|2|
-|129|2|f|2|
-|130|3|d|2|
-|131|3|d|3|
-|132|3|d|2|
-|134|2,3|d|3|
-|141|4|d|2|
-|143|4|d|3|
-|144|4|d|1|
-|146|4|e|2|
-|147|4|e|1|
-|148|4|e|2|
-|149|4|f|2|
-|150|4|f|3|
-|151|4|f|1|
-|154|5|d|2|
-|155|5|d|1|
-|156|5|d|2|
-|157|5|e|2|
-|158|5|e|1|
-|159|5|e|2|
+Thanks to Jay Wilson for the initial transcription and permission to use them for this expanded initiative.
+All subsequent annotation, analysis, code etc. by Mark Gotham.
 
-... and the cantus firmus collection ...
+Contributions are welcome. Please submit a PR or get in touch.
 
-| Modal final | Pitches | Counts and exceptions |
-|---|---|---|
-| D | D4, F4, E4, D4, G4, F4, A4, G4, F4, E4, D4| 16 counts at two octaves (D3 and D4) |
-| E | E4, C4, D4, C4, A3, A4, G4, E4, F4, E4| 12 counts at two octaves (E3 and E4) |
-| F | F3, G3, A3, F3, D3, E3, F3, C4, A3, F3, G3, F3| 9 counts at two octaves (F3 and F4) |
-| G | G3, C4, B3, G3, C4, E4, D4, G4, E4, C4, D4, B3, A3, G3| 2 counts |
-| A | A3, C4, B3, D4, C4, E4, F4, E4, D4, C4, B3, A3| 3 counts at three octaves (A2, A3 and A4) |
-| C | C4, E4, F4, G4, E4, A4, G4, E4, F4, E4, D4, C4 | 2 counts. Corresponds to the first case for Part I.|
-
-### Part III
-
-| Figure | Species | Mode (final) | Cantus Firmus Part |
-|---|---|---|---|
-|160|1|d|2|
-|163|1|d|1|
-|164|1|d|3|
-|165|1|d|4|
-|166|1|e|1|
-|167|1|e|2|
-|168|1|e|3|
-|169|1|f|2|
-|170|1|f|1|
-|171|1|f|3|
-|172|1|f|4|
-|173|2|d|1|
-|174|2|d|2|
-|175|2|d|3|
-|176|2|d|4|
-|177|3|d|2|
-|180|3|d|4|
-|181|3|d|2|
-|182|3|d|2|
-|183|3|e|2|
-|184|3|e|1|
-|185|3|e|2|
-|186|3|e|3|
-|193|4|d|2|
-|195|4|d|4|
-|196|4|d|1|
-|197|4|d|2|
-|200|5|d|2|
-|201|5|d|1|
-|202|5|d|4|
-|203|5|d|2|
-|204|2,3,4|d|4|
-
-... and the cantus firmus collection ...
-
-| Modal final | Pitches | Counts and exceptions |
-|---|---|---|
-| D | D4, F4, E4, D4, G4, F4, A4, G4, F4, E4, D4| 21 counts at two octaves (D3 and D4) |
-| E | E4, C4, D4, C4, A3, A4, G4, E4, F4, E4| 7 counts, one at E5 (fig.184)|
-| F | F3, G3, A3, F3, D3, E3, F3, C4, A3, F3, G3, F3| 4 counts at two octaves (F3 and F4) |
+Licence:
+- Code = MIT licence, 2026
+- Rendered scores = CC0 (Public Domain). Mark Gotham and FourScoreAndMore.org waive all rights to those documents.
