@@ -1,3 +1,9 @@
+![Version](https://img.shields.io/github/v/release/MarkGotham/species?display_name=tag)
+[![DOI](https://zenodo.org/badge/747293703.svg)](https://doi.org/10.5281/zenodo.15450144)
+![GitHub repo size](https://img.shields.io/github/repo-size/MarkGotham/species)
+![License](https://img.shields.io/badge/License-MIT-blue.svg)
+
+
 # Species Counterpoint
 
 This repo provides the full cantus firmus exercises of Johann Joseph Fux's iconic pedagogical treatise, 'Gradus ad Parnassum' in three sections:
