@@ -1,5 +1,5 @@
 ![Version](https://img.shields.io/github/v/release/MarkGotham/species?display_name=tag)
-[![DOI](https://zenodo.org/badge/747293703.svg)](https://doi.org/10.5281/zenodo.15450144)
+[![DOI](https://zenodo.org/badge/747293703.svg)](https://doi.org/10.5281/zenodo.18442041)
 ![GitHub repo size](https://img.shields.io/github/repo-size/MarkGotham/species)
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
 
