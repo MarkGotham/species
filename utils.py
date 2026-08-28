@@ -41,7 +41,7 @@ SCORE_TITLE = "Gradus ad Parnassum Exercise"
 SCORE_COMPOSER = "Fux, Johann Joseph"
 
 # URL configuration for downloads and viewing.
-BASE_RAW_GIT = "https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/"
+BASE_RAW_GIT = "https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/gap_"
 BASE_VHV_URL = "https://verovio.humdrum.org/?file=" + BASE_RAW_GIT
 
 # HTML template
