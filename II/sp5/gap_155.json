@@ -1,0 +1,60 @@
+{
+  "id": "gap_155",
+  "figure": {
+    "number": 155,
+    "suffix": "",
+    "note": null,
+    "corrected": false,
+    "corrects": null
+  },
+  "species": [
+    5
+  ],
+  "modal_final": "d",
+  "voices": 3,
+  "cantus_firmus": {
+    "part": 1,
+    "raw": "1"
+  },
+  "meter": "2/2",
+  "measures": 11,
+  "clefs": [
+    "C3",
+    "C4",
+    "F4"
+  ],
+  "page": 112,
+  "source": {
+    "example_id": "gap_p120:2",
+    "pdf_file": "gap_p120.pdf",
+    "pdf_page": 120,
+    "example_on_page": 2,
+    "systems": [
+      {
+        "system_in_example": 1,
+        "system_on_page": 3,
+        "pdf_file": "gap_p120.pdf",
+        "pdf_page": 120,
+        "printed_page": 112,
+        "clefs": [
+          "C3",
+          "C4",
+          "F4"
+        ]
+      },
+      {
+        "system_in_example": 2,
+        "system_on_page": 1,
+        "pdf_file": "gap_p121.pdf",
+        "pdf_page": 121,
+        "printed_page": 113,
+        "clefs": [
+          "C3",
+          "C4",
+          "F4"
+        ],
+        "position_on_page": "top_left"
+      }
+    ]
+  }
+}

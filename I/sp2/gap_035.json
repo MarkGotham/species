@@ -1,0 +1,32 @@
+{
+  "id": "gap_035",
+  "figure": {
+    "number": 35,
+    "suffix": "",
+    "note": null,
+    "corrected": false,
+    "corrects": null
+  },
+  "species": [
+    2
+  ],
+  "modal_final": "d",
+  "voices": 2,
+  "cantus_firmus": {
+    "part": 1,
+    "raw": "Upper"
+  },
+  "meter": "2/2",
+  "measures": 11,
+  "clefs": [
+    "C3",
+    "C4"
+  ],
+  "page": 60,
+  "source": {
+    "example_id": "gap_p068:1",
+    "pdf_file": "gap_p068.pdf",
+    "pdf_page": 68,
+    "example_on_page": 1
+  }
+}

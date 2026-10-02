@@ -1,0 +1,66 @@
+{
+  "id": "gap_055",
+  "figure": {
+    "number": 55,
+    "suffix": "",
+    "note": null,
+    "corrected": false,
+    "corrects": null
+  },
+  "species": [
+    3
+  ],
+  "modal_final": "d",
+  "voices": 2,
+  "cantus_firmus": {
+    "part": 2,
+    "raw": "Lower"
+  },
+  "meter": "2/2",
+  "measures": 11,
+  "clefs": [
+    "C1",
+    "C3"
+  ],
+  "page": 66,
+  "source": {
+    "example_id": "gap_p074:1",
+    "pdf_file": "gap_p074.pdf",
+    "pdf_page": 74,
+    "example_on_page": 1,
+    "systems": [
+      {
+        "system_in_example": 1,
+        "pdf_file": "gap_p074.pdf",
+        "pdf_page": 74,
+        "printed_page": 66,
+        "clefs": [
+          "C1",
+          "C3"
+        ]
+      },
+      {
+        "system_in_example": 2,
+        "pdf_file": "gap_p074.pdf",
+        "pdf_page": 74,
+        "printed_page": 66,
+        "clefs": [
+          "C3",
+          "C3"
+        ]
+      }
+    ],
+    "review_notes": [
+      {
+        "system_in_example": 2,
+        "issue": "suspected_clef_engraving_error",
+        "description": "The upper clef is printed as C3 in the second system. The opening uses C1, and the notes and printed interval numbers suggest that C1 was intended in the continuation. The printed reading is preserved in source.systems.",
+        "suggested_clefs": [
+          "C1",
+          "C3"
+        ],
+        "status": "needs_review"
+      }
+    ]
+  }
+}

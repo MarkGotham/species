@@ -1,0 +1,44 @@
+!!!COM: Fux, Johann Joseph
+!!!OPR: Gradus ad Parnassum Exercise; Fig. 123; Species: 2; Modal final: d; Cantus firmus: 2
+!!!YEC: CC0 1.0 Universal (Public Domain). Mark Gotham and FourScoreAndMore.org waive all rights to this document.
+**kern	**kern	**kern
+*part3	*part2	*part1
+*staff3	*staff2	*staff1
+*clefGv2	*clefG2	*clefG2
+*k[]	*k[]	*k[]
+*M2/2	*M2/2	*M2/2
+*met(c|)	*met(c|)	*met(c|)
+=1	=1	=1
+2r	1d	1a
+2d	.	.
+=2	=2	=2
+2D	1f	1a
+2F	.	.
+=3	=3	=3
+2A	1e	1cc
+2E	.	.
+=4	=4	=4
+2G	1d	1b
+2F	.	.
+=5	=5	=5
+2E	1g	1b
+2G	.	.
+=6	=6	=6
+2D	1f	1dd
+2E	.	.
+=7	=7	=7
+2F	1a	1cc
+2A	.	.
+=8	=8	=8
+2c	1g	1ee
+2C	.	.
+=9	=9	=9
+2D	1f	1a
+[2d	.	.
+=10	=10	=10
+2d]	1e	1g
+2c#X	.	.
+=11	=11	=11
+1d	1d	1f#X
+==	==	==
+*-	*-	*-

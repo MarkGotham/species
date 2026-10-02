@@ -1,0 +1,32 @@
+{
+  "id": "gap_044",
+  "figure": {
+    "number": 44,
+    "suffix": "",
+    "note": null,
+    "corrected": false,
+    "corrects": null
+  },
+  "species": [
+    2
+  ],
+  "modal_final": "c",
+  "voices": 2,
+  "cantus_firmus": {
+    "part": 2,
+    "raw": "Lower"
+  },
+  "meter": "2/2",
+  "measures": 12,
+  "clefs": [
+    "C1",
+    "C3"
+  ],
+  "page": 62,
+  "source": {
+    "example_id": "gap_p070:3",
+    "pdf_file": "gap_p070.pdf",
+    "pdf_page": 70,
+    "example_on_page": 3
+  }
+}
