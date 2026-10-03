@@ -1,0 +1,15 @@
+{
+  "composer": "Fux, Johann Joseph",
+  "work": "Gradus ad Parnassum",
+  "opr_prefix": "Gradus ad Parnassum Exercise",
+  "licence": {
+    "spdx": "CC0-1.0",
+    "statement": "CC0 1.0 Universal (Public Domain). Mark Gotham and FourScoreAndMore.org waive all rights to this document."
+  },
+  "source": {
+    "place": "Vienna",
+    "name": "Joannis Petri van Ghelen",
+    "year": 1725,
+    "url": "https://imslp.org/wiki/Gradus_ad_Parnassum_(Fux,_Johann_Joseph)"
+  }
+}
