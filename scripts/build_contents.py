@@ -437,8 +437,11 @@ def render_page(root, page, entries, all_entries, page_paths, statuses, starts, 
         if not page_content:
             page_content = h(meta.get("page")) if meta.get("page") is not None else '<span class="muted">—</span>'
         files = []
-        for suffix, label, description in ((".mxl", "MXL", "MusicXML, modern clefs"), (".original.mxl", "Orig.", "MusicXML, original clefs"),
-                                           (".krn", "KRN", "Humdrum kern score"), (".json", "JSON", "Canonical metadata")):
+        for suffix, label, description in (
+                (".mxl", "MXL", "MusicXML, modern clefs"),
+                (".original.mxl", "Orig.", "MusicXML, original clefs"),
+                (".krn", "KRN", "Humdrum kern score"),
+        ):
             target = entry.path.with_name(entry.id + suffix)
             if download_available(target, root, statuses):
                 files.append(anchor(label, file_url(target, page, root, args), f"{entry.id}: {description}", "file-link", True))
@@ -527,7 +530,7 @@ on behalf of the fourscoreandmore.org team.
 <div class="status"><span id="result-count" role="status" aria-live="polite">{len(entries)} exercises</span><p class="legend">{legend} Click a column heading to sort.</p></div>
 <div class="table-wrap"><table id="scores"><caption class="visually-hidden">{h(scope_title)}: individual exercises and downloads</caption><thead><tr>{"".join(columns)}</tr></thead><tbody>{"".join(rendered_rows)}</tbody></table></div>
 <p id="empty" class="empty" hidden>No exercises match these filters. Try another search or reset.</p>
-<div class="footer"><span>MXL: modern clefs · Orig.: original clefs · KRN: score · JSON: metadata</span><span>CF: cantus firmus · corr.: corrected · Page: printed book page</span></div>
+<div class="footer"><span>MXL: modern clefs · Orig.: original clefs · KRN: score</span><span>CF: cantus firmus · corr.: corrected · Page: printed book page</span></div>
 <noscript><p>All exercises are listed. Enable JavaScript to search, filter and sort.</p></noscript>
 </main><script>{JS}</script></body></html>'''
 
@@ -542,7 +545,7 @@ def atomic_write(path, text):
 
 def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    parser.add_argument("root", nargs="?", default=".", help="corpus root, default current directory")
+    parser.add_argument("root", nargs="?", default="..", help="corpus root, default up one level")
     parser.add_argument("--output-dir", type=Path, help="write HTML here; default corpus root")
     parser.add_argument("--raw-base-url", default=RAW_BASE, help="public raw repository root for file and VHV links")
     parser.add_argument("--absolute-links", action=argparse.BooleanOptionalAction, default=True,
@@ -566,7 +569,7 @@ def main(argv=None):
     statuses, aggregates, export_errors = load_exports(root)
     errors.extend(export_errors)
     if not entries:
-        errors.append("no usable metadata found under I/II/III/spN/gap_*.json")
+        errors.append(f"no usable .json metadata found under the given root path ({root})")
     for error in errors:
         print(f"ERROR {error}", file=sys.stderr)
     if not entries:
