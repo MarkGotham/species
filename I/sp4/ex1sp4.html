@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Part I · 2 voices · Species 4 · Gradus ad Parnassum</title><style>
+:root{color-scheme:light;--ink:#202d3c;--muted:#647180;--line:#dce3e9;--blue:#285b85;--paper:#f7f8fa;--accent:#e9f0f7}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:14px/1.45 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+a{color:var(--blue);text-underline-offset:3px}a:hover{color:#123c61}button,input,select{font:inherit}button,a,input,select{touch-action:manipulation}
+:focus-visible{outline:3px solid #679dcb;outline-offset:3px}main{max-width:1480px;margin:auto;padding:30px 32px 46px}
+.masthead{display:flex;align-items:baseline;justify-content:space-between;gap:18px;border-bottom:1px solid var(--line);padding-bottom:18px;margin-bottom:18px}
+.eyebrow{font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin:0 0 4px}
+h1{font:400 clamp(25px,3vw,36px)/1.18 Georgia,"Times New Roman",serif;margin:0}.subtitle{color:var(--muted);margin:7px 0 0}
+.collection-tag{font-size:12px;color:var(--muted);white-space:nowrap}.nav{display:flex;flex-wrap:wrap;gap:7px;margin:0 0 18px}
+.nav a{border:1px solid var(--line);border-radius:5px;padding:5px 10px;text-decoration:none;background:white;font-size:12px}.nav a[aria-current=page]{background:var(--ink);color:white;border-color:var(--ink)}
+.group-downloads{display:flex;align-items:center;flex-wrap:wrap;gap:7px;margin:0 0 18px;font-size:13px}.group-downloads>span{color:var(--muted);margin-right:3px}
+.controls{display:flex;flex-wrap:wrap;align-items:end;gap:12px;padding:16px;background:white;border:1px solid var(--line);border-radius:8px 8px 0 0}
+.control{display:flex;flex-direction:column;gap:5px}.control label{font-size:11px;letter-spacing:.035em;font-weight:650;color:var(--muted)}.search-control{flex:1;min-width:220px}
+input,select{height:36px;border:1px solid #bdc9d5;border-radius:5px;background:white;color:var(--ink);padding:6px 10px}input{width:100%}input::placeholder{color:#7c8793}
+.reset{height:36px;border:1px solid var(--line);background:var(--paper);border-radius:5px;padding:6px 12px;cursor:pointer;color:var(--ink)}.reset:hover{background:var(--accent)}
+.status{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px;font-size:12px;color:var(--muted);padding:11px 2px}.legend{margin:0}.table-wrap{overflow-x:auto;background:white;border:1px solid var(--line);border-radius:0 0 8px 8px}
+table{border-collapse:collapse;width:100%;font-variant-numeric:tabular-nums;table-layout:auto}th,td{text-align:left;vertical-align:middle;border-bottom:1px solid #e8edf1;padding:10px 11px}
+thead{background:#edf1f5}th{font-size:11px;font-weight:700;color:#4c5e70;white-space:nowrap}th button{border:0;background:none;color:inherit;cursor:pointer;padding:0;display:inline-flex;align-items:center;gap:5px;font-weight:inherit;font-size:inherit;min-height:24px}
+th button::after{content:"↕";font-size:11px;color:#8394a4}th[aria-sort=ascending] button::after{content:"↑";color:var(--blue)}th[aria-sort=descending] button::after{content:"↓";color:var(--blue)}
+tbody tr:last-child td{border-bottom:0}tbody tr:nth-child(even){background:#fafbfd}tbody tr:hover{background:#f0f5fa}td{font-size:13px}.num{white-space:nowrap}.figure{font-weight:700}.figure-cell{max-width:185px}.correction{font-size:11px;color:#665222;white-space:nowrap}.sub-id{display:block;font-size:10px;font-weight:400;overflow-wrap:anywhere;color:var(--muted);max-width:155px}
+.downloads{display:flex;flex-wrap:wrap;gap:5px;max-width:260px}.file-link{display:inline-block;text-decoration:none;border:1px solid #ccd9e5;border-radius:4px;background:#f5f8fb;padding:3px 6px;font-size:11px;line-height:1.3;white-space:nowrap}.file-link:hover{background:#e7eff7;border-color:#7a9fbd}.muted{color:#94a0ac}.source-links{display:flex;flex-wrap:wrap;gap:5px}.view-link{font-size:12px;white-space:nowrap}
+.empty{display:none;margin:0;padding:32px;text-align:center;color:var(--muted);background:white;border:1px solid var(--line);border-top:0}.footer{font-size:11px;color:var(--muted);margin-top:14px;display:flex;flex-wrap:wrap;gap:5px 18px}.visually-hidden{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+@media(max-width:1050px){main{padding:22px 18px}th,td{padding:9px 8px}.collection-tag{display:none}.downloads{max-width:230px}}
+@media(max-width:700px){main{padding:18px 12px}.masthead{display:block}.controls{padding:12px;gap:9px}.search-control{flex-basis:100%}.control select{max-width:140px}th,td{padding:9px 7px}td{font-size:12px}.figure-cell{min-width:88px}.downloads{min-width:146px}.legend{max-width:100%}}
+@media print{body{background:white}main{max-width:none;padding:0}.controls,.nav,.group-downloads,.view-column,.footer{display:none}.table-wrap{overflow:visible;border:0}.status{padding:8px 0}th,td{padding:6px}a{color:inherit;text-decoration:none}.file-link{border:0;padding:0}thead{display:table-header-group}tr{break-inside:avoid}}
+</style></head>
+<body><main>
+<header class="masthead"><div><p class="eyebrow">fourscoreandmore.org presents</p><h1>Fux's: Gradus ad Parnassum</h1>
+<p class="subtitle">Part I · 2 voices · Species 4</p>
+<p>
+Click any column header to sort; use the search box to filter (across any field).    
+</p>
+
+
+<p>
+  Choose <strong>MusicXML (.mxl)</strong> to open and edit scores in notation software.
+  <strong>Kern (.krn)</strong> is also available for users of Humdrum tools.
+</p>
+<p>The table also provides these links:</p>
+<ul>
+  <li>
+    <strong>VHV</strong>: view and edit an individual score online in the
+    <a href="https://verovio.humdrum.org/"
+       target="_blank" rel="noopener noreferrer">Verovio Humdrum Viewer</a>.
+    Use the link in the score’s row to load that exercise.
+  </li>
+  <li>
+    <strong>Start</strong>: the exercise’s starting measure in a combined
+    score. Select the measure number to open the combined MusicXML file
+    for the relevant part or species.
+  </li>
+  <li>
+    <strong>Page</strong>: the printed page number in the source book.
+    Where linked, select it to open the corresponding scanned PDF page.
+  </li>
+</ul>
+<p>
+We hope you enjoy this resource!
+</p>
+<p>
+<a href="https://markgotham.github.io/" target="_blank" rel="noopener">Mark Gotham</a>,
+on behalf of the fourscoreandmore.org team.
+</p>
+</div><span class="collection-tag">Scores · metadata · source scans</span></header>
+<div class="group-downloads"><span>Combined score</span><a href="https://raw.githubusercontent.com/MarkGotham/species/main/I/sp4/ex1sp4.mxl" title="Download combined score: MXL · modern" aria-label="Download combined score: MXL · modern" class="file-link" download target="_blank" rel="noopener noreferrer">MXL · modern</a></div>
+<div class="controls"><div class="control search-control"><label for="search">Search exercises</label><input id="search" type="search" placeholder="Figure, correction, file ID…" autocomplete="off"></div>
+<div class="control"><label for="species-filter">Species</label><select id="species-filter" data-filter="species"><option value="">All species</option><option value="4">Species 4</option></select></div>
+<div class="control"><label for="final-filter">Modal final</label><select id="final-filter" data-filter="final"><option value="">All finals</option><option value="d">D</option><option value="e">E</option><option value="f">F</option></select></div>
+<button id="reset" class="reset" type="button">Reset</button></div>
+<div class="status"><span id="result-count" role="status" aria-live="polite">6 exercises</span><p class="legend">Start = position in this combined score. Click a column heading to sort.</p></div>
+<div class="table-wrap"><table id="scores"><caption class="visually-hidden">Part I · 2 voices · Species 4: individual exercises and downloads</caption><thead><tr><th scope="col"><button type="button" data-key="figure" aria-label="Sort by Figure">Figure</button></th><th scope="col"><button type="button" data-key="species" aria-label="Sort by Species">Species</button></th><th scope="col" title="Modal final"><button type="button" data-key="final" aria-label="Sort by Final">Final</button></th><th scope="col" title="Cantus firmus; voice numbers are counted from the top"><button type="button" data-key="cf" aria-label="Sort by CF">CF</button></th><th scope="col" title="Position in this combined score"><button type="button" data-key="start" aria-label="Sort by Start">Start</button></th><th scope="col" title="Measure count"><button type="button" data-key="bars" aria-label="Sort by Bars">Bars</button></th><th scope="col" title="Printed book page; click to open a source scan"><button type="button" data-key="page" aria-label="Sort by Page">Page</button></th><th scope="col">Downloads</th><th scope="col">View</th></tr></thead><tbody><tr data-order="0" data-search="gap_073 I sp4 2 voices Lower Lower 4 d 74 73     gap_p082:1 gap_p082.pdf" data-part="I" data-species="4" data-final="d"><td data-sort="73" class="figure-cell"><span class="figure" title="gap_073">73</span></td><td data-sort="4" class="num">4</td><td data-sort="d" class="num">d</td><td data-sort="2" class="num"><span title="Voice 2 of 2, counted from the top">Lower</span></td><td data-sort="1" class="num"><a href="https://raw.githubusercontent.com/MarkGotham/species/main/I/sp4/ex1sp4.mxl" title="Position 1 in I/sp4/ex1sp4.mxl (modern clefs); download combined score" aria-label="Position 1 in I/sp4/ex1sp4.mxl (modern clefs); download combined score" download target="_blank" rel="noopener noreferrer">1</a></td><td data-sort="11" class="num">11</td><td data-sort="74" class="num"><span class="source-links"><a href="https://raw.githubusercontent.com/MarkGotham/species/main/source_pdf/gap_p082.pdf" title="Source scan: gap_p082.pdf" aria-label="Source scan: gap_p082.pdf" target="_blank" rel="noopener noreferrer">74</a></span></td><td data-sort="" class=""><div class="downloads"><a href="https://raw.githubusercontent.com/MarkGotham/species/main/I/sp4/gap_073.mxl" title="gap_073: MusicXML, modern clefs" aria-label="gap_073: MusicXML, modern clefs" class="file-link" download target="_blank" rel="noopener noreferrer">MXL</a><a href="https://raw.githubusercontent.com/MarkGotham/species/main/I/sp4/gap_073.krn" title="gap_073: Humdrum kern score" aria-label="gap_073: Humdrum kern score" class="file-link" download target="_blank" rel="noopener noreferrer">KRN</a></div></td><td data-sort="" class="view-column"><a href="https://verovio.humdrum.org/?file=https%3A%2F%2Fraw.githubusercontent.com%2FMarkGotham%2Fspecies%2Fmain%2FI%2Fsp4%2Fgap_073.krn" title="View gap_073 in Verovio Humdrum Viewer" aria-label="View gap_073 in Verovio Humdrum Viewer" class="view-link" target="_blank" rel="noopener noreferrer">VHV ↗</a></td></tr><tr data-order="1" data-search="gap_074 I sp4 2 voices Upper Upper 4 d 74 74     gap_p082:2 gap_p082.pdf" data-part="I" data-species="4" data-final="d"><td data-sort="74" class="figure-cell"><span class="figure" title="gap_074">74</span></td><td data-sort="4" class="num">4</td><td data-sort="d" class="num">d</td><td data-sort="1" class="num"><span title="Voice 1 of 2, counted from the top">Upper</span></td><td data-sort="12" class="num"><a href="https://raw.githubusercontent.com/MarkGotham/species/main/I/sp4/ex1sp4.mxl" title="Position 12 in I/sp4/ex1sp4.mxl (modern clefs); download combined score" aria-label="Position 12 in I/sp4/ex1sp4.mxl (modern clefs); download combined score" download target="_blank" rel="noopener noreferrer">12</a></td><td data-sort="11" class="num">11</td><td data-sort="74" class="num"><span class="source-links"><a href="https://raw.githubusercontent.com/MarkGotham/species/main/source_pdf/gap_p082.pdf" title="Source scan: gap_p082.pdf" aria-label="Source scan: gap_p082.pdf" target="_blank" rel="noopener noreferrer">74</a></span></td><td data-sort="" class=""><div class="downloads"><a href="https://raw.githubusercontent.com/MarkGotham/species/main/I/sp4/gap_074.mxl" title="gap_074: MusicXML, modern clefs" aria-label="gap_074: MusicXML, modern clefs" class="file-link" download target="_blank" rel="noopener noreferrer">MXL</a><a href="https://raw.githubusercontent.com/MarkGotham/species/main/I/sp4/gap_074.krn" title="gap_074: Humdrum kern score" aria-label="gap_074: Humdrum kern score" class="file-link" download target="_blank" rel="noopener noreferrer">KRN</a></div></td><td data-sort="" class="view-column"><a href="https://verovio.humdrum.org/?file=https%3A%2F%2Fraw.githubusercontent.com%2FMarkGotham%2Fspecies%2Fmain%2FI%2Fsp4%2Fgap_074.krn" title="View gap_074 in Verovio Humdrum Viewer" aria-label="View gap_074 in Verovio Humdrum Viewer" class="view-link" target="_blank" rel="noopener noreferrer">VHV ↗</a></td></tr><tr data-order="2" data-search="gap_075 I sp4 2 voices Lower Lower 4 e 75 75     gap_p083:1 gap_p083.pdf" data-part="I" data-species="4" data-final="e"><td data-sort="75" class="figure-cell"><span class="figure" title="gap_075">75</span></td><td data-sort="4" class="num">4</td><td data-sort="e" class="num">e</td><td data-sort="2" class="num"><span title="Voice 2 of 2, counted from the top">Lower</span></td><td data-sort="23" class="num"><a href="https://raw.githubusercontent.com/MarkGotham/species/main/I/sp4/ex1sp4.mxl" title="Position 23 in I/sp4/ex1sp4.mxl (modern clefs); download combined score" aria-label="Position 23 in I/sp4/ex1sp4.mxl (modern clefs); download combined score" download target="_blank" rel="noopener noreferrer">23</a></td><td data-sort="10" class="num">10</td><td data-sort="75" class="num"><span class="source-links"><a href="https://raw.githubusercontent.com/MarkGotham/species/main/source_pdf/gap_p083.pdf" title="Source scan: gap_p083.pdf" aria-label="Source scan: gap_p083.pdf" target="_blank" rel="noopener noreferrer">75</a></span></td><td data-sort="" class=""><div class="downloads"><a href="https://raw.githubusercontent.com/MarkGotham/species/main/I/sp4/gap_075.mxl" title="gap_075: MusicXML, modern clefs" aria-label="gap_075: MusicXML, modern clefs" class="file-link" download target="_blank" rel="noopener noreferrer">MXL</a><a href="https://raw.githubusercontent.com/MarkGotham/species/main/I/sp4/gap_075.krn" title="gap_075: Humdrum kern score" aria-label="gap_075: Humdrum kern score" class="file-link" download target="_blank" rel="noopener noreferrer">KRN</a></div></td><td data-sort="" class="view-column"><a href="https://verovio.humdrum.org/?file=https%3A%2F%2Fraw.githubusercontent.com%2FMarkGotham%2Fspecies%2Fmain%2FI%2Fsp4%2Fgap_075.krn" title="View gap_075 in Verovio Humdrum Viewer" aria-label="View gap_075 in Verovio Humdrum Viewer" class="view-link" target="_blank" rel="noopener noreferrer">VHV ↗</a></td></tr><tr data-order="3" data-search="gap_076 I sp4 2 voices Upper Upper 4 e 75 76     gap_p083:2 gap_p083.pdf" data-part="I" data-species="4" data-final="e"><td data-sort="76" class="figure-cell"><span class="figure" title="gap_076">76</span></td><td data-sort="4" class="num">4</td><td data-sort="e" class="num">e</td><td data-sort="1" class="num"><span title="Voice 1 of 2, counted from the top">Upper</span></td><td data-sort="33" class="num"><a href="https://raw.githubusercontent.com/MarkGotham/species/main/I/sp4/ex1sp4.mxl" title="Position 33 in I/sp4/ex1sp4.mxl (modern clefs); download combined score" aria-label="Position 33 in I/sp4/ex1sp4.mxl (modern clefs); download combined score" download target="_blank" rel="noopener noreferrer">33</a></td><td data-sort="10" class="num">10</td><td data-sort="75" class="num"><span class="source-links"><a href="https://raw.githubusercontent.com/MarkGotham/species/main/source_pdf/gap_p083.pdf" title="Source scan: gap_p083.pdf" aria-label="Source scan: gap_p083.pdf" target="_blank" rel="noopener noreferrer">75</a></span></td><td data-sort="" class=""><div class="downloads"><a href="https://raw.githubusercontent.com/MarkGotham/species/main/I/sp4/gap_076.mxl" title="gap_076: MusicXML, modern clefs" aria-label="gap_076: MusicXML, modern clefs" class="file-link" download target="_blank" rel="noopener noreferrer">MXL</a><a href="https://raw.githubusercontent.com/MarkGotham/species/main/I/sp4/gap_076.krn" title="gap_076: Humdrum kern score" aria-label="gap_076: Humdrum kern score" class="file-link" download target="_blank" rel="noopener noreferrer">KRN</a></div></td><td data-sort="" class="view-column"><a href="https://verovio.humdrum.org/?file=https%3A%2F%2Fraw.githubusercontent.com%2FMarkGotham%2Fspecies%2Fmain%2FI%2Fsp4%2Fgap_076.krn" title="View gap_076 in Verovio Humdrum Viewer" aria-label="View gap_076 in Verovio Humdrum Viewer" class="view-link" target="_blank" rel="noopener noreferrer">VHV ↗</a></td></tr><tr data-order="4" data-search="gap_077 I sp4 2 voices Lower Lower 4 f 75 77     gap_p083:3 gap_p083.pdf" data-part="I" data-species="4" data-final="f"><td data-sort="77" class="figure-cell"><span class="figure" title="gap_077">77</span></td><td data-sort="4" class="num">4</td><td data-sort="f" class="num">f</td><td data-sort="2" class="num"><span title="Voice 2 of 2, counted from the top">Lower</span></td><td data-sort="43" class="num"><a href="https://raw.githubusercontent.com/MarkGotham/species/main/I/sp4/ex1sp4.mxl" title="Position 43 in I/sp4/ex1sp4.mxl (modern clefs); download combined score" aria-label="Position 43 in I/sp4/ex1sp4.mxl (modern clefs); download combined score" download target="_blank" rel="noopener noreferrer">43</a></td><td data-sort="12" class="num">12</td><td data-sort="75" class="num"><span class="source-links"><a href="https://raw.githubusercontent.com/MarkGotham/species/main/source_pdf/gap_p083.pdf" title="Source scan: gap_p083.pdf" aria-label="Source scan: gap_p083.pdf" target="_blank" rel="noopener noreferrer">75</a></span></td><td data-sort="" class=""><div class="downloads"><a href="https://raw.githubusercontent.com/MarkGotham/species/main/I/sp4/gap_077.mxl" title="gap_077: MusicXML, modern clefs" aria-label="gap_077: MusicXML, modern clefs" class="file-link" download target="_blank" rel="noopener noreferrer">MXL</a><a href="https://raw.githubusercontent.com/MarkGotham/species/main/I/sp4/gap_077.krn" title="gap_077: Humdrum kern score" aria-label="gap_077: Humdrum kern score" class="file-link" download target="_blank" rel="noopener noreferrer">KRN</a></div></td><td data-sort="" class="view-column"><a href="https://verovio.humdrum.org/?file=https%3A%2F%2Fraw.githubusercontent.com%2FMarkGotham%2Fspecies%2Fmain%2FI%2Fsp4%2Fgap_077.krn" title="View gap_077 in Verovio Humdrum Viewer" aria-label="View gap_077 in Verovio Humdrum Viewer" class="view-link" target="_blank" rel="noopener noreferrer">VHV ↗</a></td></tr><tr data-order="5" data-search="gap_078 I sp4 2 voices Upper Upper 4 f 75 78     gap_p083:4 gap_p083.pdf" data-part="I" data-species="4" data-final="f"><td data-sort="78" class="figure-cell"><span class="figure" title="gap_078">78</span></td><td data-sort="4" class="num">4</td><td data-sort="f" class="num">f</td><td data-sort="1" class="num"><span title="Voice 1 of 2, counted from the top">Upper</span></td><td data-sort="55" class="num"><a href="https://raw.githubusercontent.com/MarkGotham/species/main/I/sp4/ex1sp4.mxl" title="Position 55 in I/sp4/ex1sp4.mxl (modern clefs); download combined score" aria-label="Position 55 in I/sp4/ex1sp4.mxl (modern clefs); download combined score" download target="_blank" rel="noopener noreferrer">55</a></td><td data-sort="12" class="num">12</td><td data-sort="75" class="num"><span class="source-links"><a href="https://raw.githubusercontent.com/MarkGotham/species/main/source_pdf/gap_p083.pdf" title="Source scan: gap_p083.pdf" aria-label="Source scan: gap_p083.pdf" target="_blank" rel="noopener noreferrer">75</a></span></td><td data-sort="" class=""><div class="downloads"><a href="https://raw.githubusercontent.com/MarkGotham/species/main/I/sp4/gap_078.mxl" title="gap_078: MusicXML, modern clefs" aria-label="gap_078: MusicXML, modern clefs" class="file-link" download target="_blank" rel="noopener noreferrer">MXL</a><a href="https://raw.githubusercontent.com/MarkGotham/species/main/I/sp4/gap_078.krn" title="gap_078: Humdrum kern score" aria-label="gap_078: Humdrum kern score" class="file-link" download target="_blank" rel="noopener noreferrer">KRN</a></div></td><td data-sort="" class="view-column"><a href="https://verovio.humdrum.org/?file=https%3A%2F%2Fraw.githubusercontent.com%2FMarkGotham%2Fspecies%2Fmain%2FI%2Fsp4%2Fgap_078.krn" title="View gap_078 in Verovio Humdrum Viewer" aria-label="View gap_078 in Verovio Humdrum Viewer" class="view-link" target="_blank" rel="noopener noreferrer">VHV ↗</a></td></tr></tbody></table></div>
+<p id="empty" class="empty" hidden>No exercises match these filters. Try another search or reset.</p>
+<div class="footer"><span>MXL: modern clefs · Orig.: original clefs · KRN: score</span><span>CF: cantus firmus · corr.: corrected · Page: printed book page</span></div>
+<noscript><p>All exercises are listed. Enable JavaScript to search, filter and sort.</p></noscript>
+</main><script>
+(() => {
+  const table = document.getElementById('scores');
+  const tbody = table.tBodies[0];
+  const rows = [...tbody.rows];
+  const search = document.getElementById('search');
+  const filters = [...document.querySelectorAll('[data-filter]')];
+  const count = document.getElementById('result-count');
+  const empty = document.getElementById('empty');
+  const collator = new Intl.Collator(undefined, {numeric: true, sensitivity: 'base'});
+  let active = null, direction = 1;
+  function filter() {
+    const words = search.value.toLocaleLowerCase().trim().split(/\s+/).filter(Boolean);
+    let shown = 0;
+    for (const row of rows) {
+      const text = row.dataset.search.toLocaleLowerCase();
+      const match = words.every(word => text.includes(word)) && filters.every(select => {
+        const value = select.value;
+        if (!value) return true;
+        const actual = row.dataset[select.dataset.filter];
+        return select.dataset.filter === 'species' ? actual.split(',').includes(value) : actual === value;
+      });
+      row.hidden = !match;
+      if (match) shown++;
+    }
+    count.textContent = `${shown} of ${rows.length} exercises`;
+    empty.hidden = shown !== 0;
+    empty.style.display = shown === 0 ? 'block' : 'none';
+  }
+  function sort(button) {
+    const key = button.dataset.key;
+    direction = active === key ? -direction : 1;
+    active = key;
+    const column = button.closest('th').cellIndex;
+    rows.sort((a,b) => {
+      const av = a.cells[column].dataset.sort || '';
+      const bv = b.cells[column].dataset.sort || '';
+      if (!av && bv) return 1;
+      if (av && !bv) return -1;
+      return direction * collator.compare(av,bv) || Number(a.dataset.order) - Number(b.dataset.order);
+    });
+    for (const row of rows) tbody.appendChild(row);
+    for (const th of table.tHead.rows[0].cells) th.removeAttribute('aria-sort');
+    button.closest('th').setAttribute('aria-sort', direction === 1 ? 'ascending' : 'descending');
+  }
+  search.addEventListener('input', filter);
+  filters.forEach(select => select.addEventListener('change', filter));
+  document.querySelectorAll('th button[data-key]').forEach(button => button.addEventListener('click', () => sort(button)));
+  document.getElementById('reset').addEventListener('click', () => {
+    search.value = ''; filters.forEach(select => select.value = '');
+    rows.sort((a,b) => Number(a.dataset.order) - Number(b.dataset.order));
+    rows.forEach(row => tbody.appendChild(row));
+    for (const th of table.tHead.rows[0].cells) th.removeAttribute('aria-sort');
+    active = null; direction = 1; filter(); search.focus();
+  });
+  filter();
+})();
+</script></body></html>
