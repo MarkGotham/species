@@ -45,5 +45,21 @@
         ]
       }
     ]
+  },
+  "editorial": {
+    "corrections": [
+      {
+        "kind": "pitch",
+        "location": {
+          "part": 4,
+          "measure": null,
+          "offset_quarters": null,
+          "description": "Final bass breve"
+        },
+        "printed": "C3",
+        "encoded": "D3",
+        "reason": "Clearly D-mode exercises should close on D.",
+      }
+    ]
   }
 }

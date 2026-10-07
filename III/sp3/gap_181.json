@@ -58,5 +58,34 @@
         ]
       }
     ]
+  },
+  "editorial": {
+    "corrections": [
+      {
+        "kind": "pitch",
+        "location": {
+          "part": 1,
+          "measure": 1,
+          "offset_quarters": null,
+          "description": "Soprano, bar 1"
+        },
+        "printed": "F4",
+        "encoded": "A4",
+        "reason": "On printed page 127, Joseph describes the passage marked A as moving \"from a fifth to an octave\" in the outer voices strongly implying A4 to D5. F4 to D5 would also be a major-sixth leap.",
+        "source": {
+          "printed_page": 126,
+          "pdf_file": "gap_p134.pdf",
+          "pdf_page": 134
+        },
+        "evidence": [
+          {
+            "printed_page": 127,
+            "pdf_file": "gap_p135.pdf",
+            "pdf_page": 135,
+            "description": "Joseph’s explanation of the passage marked A."
+          }
+        ]
+      }
+    ]
   }
 }

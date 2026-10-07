@@ -28,5 +28,21 @@
     "pdf_file": "gap_p067.pdf",
     "pdf_page": 67,
     "example_on_page": 1
+  },
+  "editorial": {
+    "corrections": [
+      {
+        "kind": "pitch",
+        "location": {
+          "part": 1,
+          "measure": 3,
+          "offset_quarters": 2,
+          "description": "Counterpoint, bar 3, second half"
+        },
+        "printed": "C4",
+        "encoded": "G4",
+        "reason": "The interval figure printed below the note is 3: a third above the cantus E4 is G4."
+      }
+    ]
   }
 }

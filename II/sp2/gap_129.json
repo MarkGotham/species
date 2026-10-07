@@ -43,5 +43,21 @@
         ]
       }
     ]
+  },
+  "editorial": {
+    "corrections": [
+      {
+        "kind": "pitch",
+        "location": {
+          "part": 3,
+          "measure": 8,
+          "offset_quarters": 2,
+          "description": "Lowest line, bar 8, second half"
+        },
+        "printed": "D3",
+        "encoded": "C3",
+        "reason": "The printed D3 forms a seventh against the cantus C4, and that dissonance is left by leap."
+      }
+    ]
   }
 }

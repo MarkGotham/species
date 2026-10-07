@@ -55,5 +55,21 @@
         ]
       }
     ]
+  },
+  "editorial": {
+    "corrections": [
+      {
+        "kind": "pitch",
+        "location": {
+          "part": 1,
+          "measure": 1,
+          "offset_quarters": 3,
+          "description": "Top voice, bar 1, fourth quarter"
+        },
+        "printed": "A4",
+        "encoded": "G4",
+        "reason": "Repeated A4; suspect continuous contour instead."
+      }
+    ]
   }
 }
